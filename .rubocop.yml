@@ -10,4 +10,4 @@ AllCops:
   NewCops: enable
 
 Style/FrozenStringLiteralComment:
-  Enable: false
+  Enabled: false
