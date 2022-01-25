@@ -9,5 +9,5 @@ AllCops:
     - db/migrate/*
   NewCops: enable
 
-  Style/FrozenStringLiteralComment:
-    Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
