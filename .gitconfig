@@ -1,0 +1,13 @@
+[color]
+  ui = true
+[user]
+  name = jdelaware
+  email = jonah.delaware@gmail.com
+[url "git@github.com:"]
+  insteadOf = https://github.com/
+[core]
+  editor = vim
+[push]
+  default = current
+[pull]
+  rebase = false
