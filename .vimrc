@@ -58,3 +58,6 @@ nnoremap <C-Up> :m-2<CR>
 nnoremap <C-Down> :m+<CR>
 inoremap <C-Up> <Esc>:m-2<CR>
 inoremap <C-Down> <Esc>:m+<CR>
+
+" No trailing whitespace
+autocmd BufWritePre * :s/\s\+$//e
