@@ -5,11 +5,13 @@ require:
 
 AllCops:
   Exclude:
-    - db/*schema.rb
-    - db/migrate/*
+    - 'db/schema.rb'
+    - 'db/migrate/*'
   NewCops: enable
 
 Style/FrozenStringLiteralComment:
   Enabled: false
 Style/Documentation:
   Enabled: false
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
