@@ -15,3 +15,16 @@ Style/Documentation:
   Enabled: false
 Style/ClassAndModuleChildren:
   EnforcedStyle: compact
+
+Metrics/BlockLength:
+  IgnoredMethods:
+    - describe
+    - context
+    - FactoryBot.define
+
+RSpec/ContextWording:
+  Prefixes:
+    - when
+    - with
+    - without
+    - as
