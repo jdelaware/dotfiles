@@ -20,6 +20,7 @@ set hlsearch
 set splitbelow
 set splitright
 set laststatus=2
+set mouse+=a
 
 set term=xterm-256color
 set t_Co=256
@@ -32,6 +33,8 @@ Plug 'arcticicestudio/nord-vim'
 Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'neomake/neomake'
+
+Plug 'vim-latex/vim-latex'
 
 Plug 'jiangmiao/auto-pairs'
 Plug 'ervandew/supertab'
